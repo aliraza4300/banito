@@ -17,6 +17,7 @@
 </head>
 
 <body >
+
   <div class="container max-w-640 mx-auto">
     <div class="main-circle">
       <div class="circle"></div>
@@ -29,7 +30,7 @@
         </div>
 
         <div class="flex justify-center">
-          <img src="./css/images/reset-password-2.svg" class="w-[107px]"/>
+          <img src="./css/images/Reset-password-details-svg.svg" class="w-[130px]" />
         </div>
 
       </div>
@@ -37,6 +38,18 @@
     </div>
 
     <form class="mt-18 px-7">
+      <div class="mb-4">
+          <label class="label-title" for="Phone Number">Phone Number</label>
+          <div class="input-fields-wrapper">
+              <!-- <i class="fa-regular fa-envelope text-gray-500"></i> -->
+               <img src="./css/images/Email-icon.svg" class="w-5"/>
+              <input class="input-fields focus:shadow-outline;"
+              id="Phone Number" 
+              type="number" 
+              placeholder= "Email@example.com"
+              required ></div>
+          
+      </div>
       <div class="mb-4">
           <label class="label-title" for="email">Email</label>
           <div class="input-fields-wrapper">
@@ -68,19 +81,16 @@
         <div class="flex gap-2 items-center">
           <input type="checkbox" id="terms" name="terms" required>
           <label for="terms">
-              I am a US resident and i agree to <br /> <a href="">terms, card</a>  and <a href="">ACH</a> <br />authorizations, and <a href="">E-Sign Consent</a> 
+              I am a US resident and i agree to <a href="">terms, card</a>  and <a href="">ACH</a>  authorizations, and <a href="">E-Sign Consent</a> 
           </label>
         </div>
 
-      <div class="">
-          <button class="btn-primary" type="submit">
-              Login
-          </button>
-      </div>
+        <button class="btn-primary" type="submit">
+            Sign Up
+        </button>
   </form>
 
-
-  </div>
+    </div>
   
 </body>
 
