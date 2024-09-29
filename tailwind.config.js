@@ -3,7 +3,9 @@ module.exports = {
 content: [
 './components/**/*.{html,js,jsx,ts,tsx}',
   './pages/**/*.{html,js,jsx,ts,tsx}',
-  './index.html',
+  // './index.html',
+  './login.html',
+  './signup.html',
   './resetpassword.html',
   './connectbank.html',
   './sourcefunding.html',
@@ -32,6 +34,7 @@ content: [
        "neutral-275":"#a7babe",
        "danger-e7":"#e74c3c",
        "blue": '#4849F0',
+       "border-color": '#7474F4',
       'gray': '#f8f8fe',
       },
       fontFamily: {
@@ -82,7 +85,7 @@ content: [
         '59':'59px' ,  // Extend existing sizes
       },
       maxWidth: {
-        '960': '960px',
+        '640': '640px',
        
       },
       height: {
@@ -96,7 +99,7 @@ content: [
       spacing: {
         '20': "100px",
          '134':"8.314rem",
-         '53':"3.313rem",
+         '50':"3.125rem",
          '15':"0.938rem",
          '25':"1.563rem",
          '26':"1.625rem",

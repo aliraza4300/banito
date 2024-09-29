@@ -17,24 +17,22 @@
 </head>
 
 <body >
-  <div class="h-screen bg-white flex-col content-end ">
 
-
-   
-      <div class="h-1/5 pt-4">
-        <div class="flex flex-row px-4">
+  <div class="container max-w-640 mx-auto">
+    <div class="h-screen bg-white flex flex-col">
+      <div class="pt-5 pb-50 px-7">
+        <div class="flex gap-1">
           <img src="./css/images/Backsvg.svg" class="bg-blue p-0.5 px-2.5 rounded-full" alt="">
-          <button class="ml-1">Back</button>
+          <button>Back</button>
         </div>
-      
       </div>
-      <div class=" h-4/5 rounded-tl-59 rounded-tr-59 bg-gray-c-400 py-4 px-8">
-       <h1 class="text-center font-bold text-blue text-lg font-semibold mb-4">Login</h1>
+
+      <div class="rd-wrapper">
+       <h1 class="heading">Sign Up</h1>
        <form>
           <div class="mb-4">
-              <label class="block text-gray-700 text-sm font-medium mb-2" for="email">Email</label>
+              <label class="label-title" for="email">Email</label>
               <div class="input-fields-wrapper">
-                  <!-- <i class="fa-regular fa-envelope text-gray-500"></i> -->
                    <img src="./css/images/Email-icon.svg" class="w-5"/>
                   <input class="input-fields focus:shadow-outline;"
                   id="email" 
@@ -44,9 +42,8 @@
               
           </div>
           <div class="mb-4">
-              <label class="block text-gray-700 text-sm font-medium mb-2" for="Username">Username</label>
+              <label class="label-title" for="Username">Username</label>
               <div class="input-fields-wrapper">
-                  <!-- <i class="fa-regular fa-envelope text-gray-500"></i> -->
                    <img src="./css/images/username-vector.svg" class="w-5"/>
                   <input class="input-fields focus:shadow-outline;"
                   id="username" 
@@ -56,7 +53,7 @@
               
           </div>
           <div class="m-2">
-              <label class="block text-gray-700 text-sm font-medium mb-2" for="password">Password</label>
+              <label class="label-title" for="password">Password</label>
               <div class="input-fields-wrapper">
                 <img src="./css/images/Passwordvector.svg" class="w-5"/>
                 <input class="input-fields" 
@@ -64,23 +61,25 @@
                 type="password" 
                 placeholder="Enter your Password" 
                 required>
-                <img src="./css/images/password-eye.svg" class="w-5"/>
+                <a href="">
+                  <img src="./css/images/password-eye.svg" class="w-5"/>
+                </a>
               </div>
              </div>
 
-          <div class="Forgot mb-4 ">
-            <p class="text-gray-c-600">Forgot Password?</p>
-          </div>
+             <div class="Forgot mb-4 ">
+              <a class="text-gray-c-600 mt-2.5 flex justify-end text-custom-font-forgot-pass ">Forgot Password?</a>
+            </div>
 
-          <div class="flex items-center justify-between">
-              <button class="bg-custom-gradient h-custom-button-height rounded-custom text-white font-bold py-2 px-4  w-full" type="submit">
-                  Login
-              </button>
-          </div>
+            <button class="btn-primary" type="submit">
+                Sign Up
+            </button>
       </form>
       </div>
       
     </div>
+  </div>
+  
 </body>
 
 </html>
