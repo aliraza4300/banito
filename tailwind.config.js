@@ -37,6 +37,7 @@ content: [
        "neutral-275":"#a7babe",
        "danger-e7":"#e74c3c",
        "blue": '#4849F0',
+       "green-14": '#14A11A',
        "border-color": '#7474F4',
       'gray': '#f8f8fe',
       },
