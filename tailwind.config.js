@@ -9,9 +9,9 @@ content: [
   './signup-screen-2.html',
   './signup-screen-3.html',
   './signup-screen-4.html',
+  './sourcefunding.html',
   './resetpassword.html',
   './connectbank.html',
-  './sourcefunding.html',
   './activity.html',
 ],
   

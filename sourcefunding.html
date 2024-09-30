@@ -17,138 +17,145 @@
 </head>
 
 <body >
-  <div class="h-full bg-transparent flex flex-col">
+  <div class="container max-w-640 mx-auto">
+    <div class="main-circle">
+      <div class="circle"></div>
 
+      <div class="content-between">
+        <div class="flex justify-between gap-2 pt-4 px-7 w-full">
+          <div class="btn-back p-0 w-auto">
+            <button class="flex gap-2 items-center text-white ">
+              <span class="bg-white p-2 w-[23px] h-[23px] rounded-full block">
+                <img src="./css/images/back-vector-white.svg" class="w-[5px] h-[9px]" alt="">
+              </span>
+              Back
+            </button>
+          </div>
 
-  
-    <div class="h-custom-320 relative overflow-hidden flex flex-col items-center justify-end">
-      <div class="bg-custom-gradient-2  pb-53 px-10 h-custom-620 w-custom-620 absolute z-[-1] rounded-full "></div>
-      <div class=" px-26 pt-5 w-full Top-wrapper">
-        <div class="flex flex-row  ">
-            <img src="./css/images/back-vector-white.svg" class="bg-white p-1.5 px-2.5 rounded-full" alt="">
-            <button class="ml-1 text-white">Back</button>
+          <a href="" class="flex gap-5 items-center text-white " >
+            <span class="text-nowrap">What's new</span>
+            <span class="bg-white p-2 rounded-full">
+              <img src="./css/images/hamburger-icon.svg" class="w-[23px]" alt="">
+            </span>
+          </a>
+
         </div>
-       
-        <div class="flex flex-row ">
-            <button class="mr-18 text-white text-18xl ">What's new</button>
-            <img src="./css/images/hamburger-icon.svg" class="bg-white p-1.5  px-2 rounded-full" alt="">
-            
+
+        <div class="flex justify-center items-center flex-col pt-7">
+          <img src="./css/images/Source-Funding.svg" class="w-92 pb-5" alt="">
+          <h1 class="heading-3">Nice to Meet You</h1>
         </div>
+
+
        
-      </div>
-      <div class="flex justify-center w-full">
-        <img src="./css/images/Source-Funding.svg" class="w-92 pt-42 pb-5" alt="">
-        
-      </div>
-      <div class="flex justify-center w-full">
-        <h1 class="text-center pb-5 text-white font-semibold text-33 pb-61">Nice to Meet You</h1>
-        
       </div>
 
-    
+
+
+      
+
     </div>
-    <div class=" py-4 px-25">
-      
-        <form>
-            <div class="flex justify-between mb-15 gap-6">
-                <div class="mb-4 col-6 ">
-                    <label class="block text-gray-700 text-14.33 font-medium mb-2" for="First Name">First Name</label>
-                    <div class="source-fields-wrapper  ">
-                       
-                        <input class="input-fields focus:shadow-outline placeholder:text-14"
-                        id="First Name" 
-                        type="text" 
-                        placeholder= "Legal Name"
-                        required ></div>
-                    
-                </div>
-                <div class="">
-                    <label class="block text-gray-700 text-14.33 font-medium mb-2.5 " for="Last Name">Last name</label>
-                    <div class="source-fields-wrapper ">
-               
-                      <input class="input-fields placeholder:text-14" 
-                      id="Last Name" 
-                      type="text" 
-                      placeholder="Family Name" 
-                      required>
-                
-                    </div>
-                   </div>
-      
-            </div>
-            <div class="flex justify-between mb-15 gap-6">
-                <div class=" ">
-                    <label class="block text-gray-700 text-14.33 font-medium mb-2" for="Date Of Birth">Date Of Birth</label>
-                    <div class="source-fields-wrapper  ">
-                       
-                        <input class="input-fields focus:shadow-outline placeholder:text-14 "
-                        id="Date Of Birth" 
-                        type="text" 
-                        placeholder= "MM/DD/YYYY"
-                        required ></div>
-                    
-                </div>
-                <div class="">
-                    <label class="block text-gray-700 text-14.33 font-medium mb-2.5 " for="Last Name">SSN Last 4</label>
-                    <div class="source-fields-wrapper ">
-               
-                      <input class="input-fields placeholder:text-14" 
-                      id="Last Name" 
-                      type="text" 
-                      placeholder="4221" 
-                      required>
-                
-                    </div>
-                   </div>
-      
-            </div>
-            <div class="mb-15">
-                <label class="block text-gray-700 text-sm font-medium mb-2" for="Street Address">Street Address</label>
-                <div class="source-fields-wrapper">
-                    <!-- <i class="fa-regular fa-envelope text-gray-500"></i> -->
-                     <img src="./css/images/username-vector.svg" class="w-5"/>
-                    <input class="input-fields focus:shadow-outline placeholder:text-14"
-                    id="Street Address" 
-                    type="text" 
-                    placeholder= "Your US Street Address"
-                    required ></div>
-                
-            </div>
-            <div class="flex justify-between mb-15 gap-6">
-                <div class="mb-4 col-6 ">
-                    <label class="block text-gray-700 text-14.33 font-medium mb-2" for="Apt/Unit">Apt/Unit(optional)</label>
-                    <div class="source-fields-wrapper ">
-                       
-                        <input class="input-fields focus:shadow-outline placeholder:text-14"
-                        id="Apt/Unit" 
-                        type="text" 
-                        placeholder= "Appartment"
-                        required ></div>
-                    
-                </div>
-                <div class="">
-                    <label class="block text-gray-700 text-14.33 font-medium mb-2.5 " for="Zip Code">Zip Code</label>
-                    <div class="source-fields-wrapper ">
-               
-                      <input class="input-fields placeholder:text-14" 
-                      id="Zip Code" 
-                      type="text" 
-                      placeholder="0000" 
-                      required>
-                
-                    </div>
-                   </div>
-      
-            </div>
-         
+
+    <form class="px-7 pt-18">
+      <div class="flex justify-between mb-15 gap-6">
+          <div class="flex-1 ">
+              <label class="label-title" for="First Name">First Name</label>
+              <div class="input-fields-wrapper ">
+                 
+                  <input class="input-fields focus:shadow-outline placeholder:text-14"
+                  id="First Name" 
+                  type="text" 
+                  placeholder= "Legal Name"
+                  required ></div>
               
-             <button class="bg-custom-gradient py-13 text-17 rounded-custom text-white font-medium w-full " type="submit">
-                Connect Bank Account
-          </button>
+          </div>
+          <div class="flex-1">
+              <label class="label-title " for="Last Name">Last name</label>
+              <div class="input-fields-wrapper">
+         
+                <input class="input-fields placeholder:text-14" 
+                id="Last Name" 
+                type="text" 
+                placeholder="Family Name" 
+                required>
           
-       </form>
-      
+              </div>
+             </div>
+
+      </div>
+      <div class="flex justify-between mb-15 gap-6">
+          <div class="flex-1">
+              <label class="label-title" for="Date Of Birth">Date Of Birth</label>
+              <div class="input-fields-wrapper ">
+                 
+                  <input class="input-fields focus:shadow-outline placeholder:text-14 "
+                  id="Date Of Birth" 
+                  type="text" 
+                  placeholder= "MM/DD/YYYY"
+                  required ></div>
+              
+          </div>
+          <div class="flex-1">
+              <label class="label-title " for="Last Name">SSN Last 4</label>
+              <div class="input-fields-wrapper">
+         
+                <input class="input-fields placeholder:text-14" 
+                id="Last Name" 
+                type="text" 
+                placeholder="4221" 
+                required>
+          
+              </div>
+             </div>
+
+      </div>
+      <div class="mb-15">
+          <label class="label-title" for="Street Address">Street Address</label>
+          <div class="input-fields-wrapper">
+               <img src="./css/images/username-vector.svg" class="w-5"/>
+              <input class="input-fields focus:shadow-outline placeholder:text-14"
+              id="Street Address" 
+              type="text" 
+              placeholder= "Your US Street Address"
+              required ></div>
+          
+      </div>
+      <div class="flex justify-between mb-15 gap-6">
+          <div class="mb-4 flex-1 ">
+              <label class="label-title" for="Apt/Unit">Apt/Unit(optional)</label>
+              <div class="input-fields-wrapper">
+                 
+                  <input class="input-fields focus:shadow-outline placeholder:text-14"
+                  id="Apt/Unit" 
+                  type="text" 
+                  placeholder= "Appartment"
+                  required ></div>
+              
+          </div>
+          <div class="flex-1">
+              <label class="label-title " for="Zip Code">Zip Code</label>
+              <div class="input-fields-wrapper">
+         
+                <input class="input-fields placeholder:text-14" 
+                id="Zip Code" 
+                type="text" 
+                placeholder="0000" 
+                required>
+          
+              </div>
+             </div>
+
+      </div>
+   
+        
+       <button class="btn-primary" type="submit">
+          Connect Bank Account
+    </button>
+    
+    </form>
+
     </div>
+
 </body>
 
 </html>

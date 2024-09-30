@@ -172,7 +172,13 @@
   @apply pb-15;
   @apply drop-shadow-md;
 }
-
+  .heading-3{
+    @apply text-center;
+    @apply pb-5;
+    @apply text-white;
+    @apply font-semibold;
+    @apply text-33;
+  }
 }
 
 .Top-wrapper{
