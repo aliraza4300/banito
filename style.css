@@ -162,11 +162,30 @@
 .button-primary{
   @apply bg-custom-gradient py-13 text-17 rounded-custom text-white font-medium w-full
 }
+.button-primary-rounded{
+  @apply bg-custom-gradient py-13 text-17 rounded-15 text-white font-medium w-full
+}
 .connect-bank-heading{
   @apply text-center  pb-5 text-white font-semibold text-33
 }
 .connect-bank-account-sub-text{
   @apply text-center text-14 text-black font-normal mb-25
+}
+.login-text{
+  @apply text-center font-bold text-blue text-lg font-semibold mb-4 py-5
+}
+.label-text{
+  @apply block text-black text-14.33 font-medium mb-2 font-roboto
+}
+.label-text-connect{
+  @apply block text-black text-14.33 font-medium mb-2
+}
+.source-funding-main-heading{
+
+  @apply text-center pb-5 text-white font-semibold text-33 pb-61
+}
+.confirmation-charge-sub-text{
+  @apply text-center text-14 text-black font-normal mb-2.5
 }
 }
 

@@ -17,6 +17,9 @@ content: [
   './card-details.html',
   './card-screen-2.html',
   './check-email.html',
+  './connect-funding.html',
+  './confirmation-charge.html',
+  './connect-funding-resource.html',
 ],
 plugins: [
   require('tailwindcss-textshadow')
@@ -179,6 +182,7 @@ plugins: [
         '133':'8.313rem', 
         '75':'4.688rem', 
         '46':'2.875rem', 
+        '103':'6.438rem', 
          
          
       },
