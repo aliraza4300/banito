@@ -10,6 +10,7 @@ content: [
   './signup-screen-3.html',
   './signup-screen-4.html',
   './sourcefunding.html',
+  './verification.html',
   './resetpassword.html',
   './connectbank.html',
   './activity.html',

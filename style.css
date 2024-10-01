@@ -179,6 +179,11 @@
     @apply font-semibold;
     @apply text-33;
   }
+  .heading-white-01{
+    @apply text-xl;
+    @apply text-white;
+    @apply font-bold;
+  }
 }
 
 .Top-wrapper{
