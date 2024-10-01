@@ -16,6 +16,7 @@ content: [
   './card-category.html',
   './card-details.html',
   './card-screen-2.html',
+  './check-email.html',
 ],
 plugins: [
   require('tailwindcss-textshadow')
@@ -106,6 +107,7 @@ plugins: [
         '10':'0.625rem',
         '33':'2.063rem',
         '17.92':'1.12rem',
+        '15': '0.938rem',  
         
         
      
@@ -123,7 +125,7 @@ plugins: [
        
       },
       borderWidth: {
-         '0.5':'0.031rem',
+         '0.3':'0.019rem',
       },
       maxWidth: {
         '960': '960px',
@@ -176,6 +178,7 @@ plugins: [
         '17':'1.063rem', 
         '133':'8.313rem', 
         '75':'4.688rem', 
+        '46':'2.875rem', 
          
          
       },
