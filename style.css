@@ -60,9 +60,9 @@
     }
 
     .first-container{
-      @apply  h-custom-320 ;
+      @apply  h-custom-289 ;
       @apply relative ;
-      @apply overflow-x-hidden;
+      @apply overflow-hidden;
       @apply flex;
       @apply flex-col;
       @apply items-center; 
@@ -76,11 +76,31 @@
 .whatsnew-button{
   @apply bg-white py-2  px-2 rounded-full
 }
-
+.fixed-icon-button{
+  @apply fixed bottom-5 right-5 p-18 bg-lightgreen rounded-full shadow-inner-custom drop-shadow-custom
 }
-
 .Top-wrapper{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  @apply flex justify-between
 }
+
+.card-management-body-wrapper{
+  @apply flex-1 flex-col px-26 py-0 pb-15 mt-[-136px]
+}
+.card-screen-2-body-wrapper{
+  @apply flex-1 flex-col px-26 py-0 pb-15
+}
+.Cardmanagementsubheading{
+  @apply text-center text-white font-semibold font-inter text-18 pb-15
+}
+.Cardscreen2subheading{
+  @apply text-center text-white font-semibold font-inter text-33 pb-28  pt-75
+}
+.text-small-blue-card-management{
+  @apply text-10 text-blue font-normal font-roboto
+}
+.text-small-grey-card-management{
+  @apply text-10 text-black font-normal font-roboto
+}
+}
+
+

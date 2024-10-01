@@ -535,9 +535,9 @@ a{
 }
 
 .first-container{
-  height: 20rem;
+  height: 18.063rem;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -573,6 +573,84 @@ a{
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.fixed-icon-button{
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 223 177 / var(--tw-bg-opacity));
+  padding: 1.125rem;
+  --tw-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  --tw-shadow-colored: inset 0 4px 4px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-drop-shadow: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.Top-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-management-body-wrapper{
+  margin-top: -136px;
+  flex: 1 1 0%;
+  flex-direction: column;
+  padding-left: 1.625rem;
+  padding-right: 1.625rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-bottom: 0.938rem;
+}
+
+.card-screen-2-body-wrapper{
+  flex: 1 1 0%;
+  flex-direction: column;
+  padding-left: 1.625rem;
+  padding-right: 1.625rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-bottom: 0.938rem;
+}
+
+.Cardmanagementsubheading{
+  padding-bottom: 0.938rem;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.Cardscreen2subheading{
+  padding-bottom: 7rem;
+  padding-top: 4.688rem;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 2.063rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-small-blue-card-management{
+  font-family: Roboto, sans-serif;
+  font-size: 0.625rem;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(72 73 240 / var(--tw-text-opacity));
+}
+
+.text-small-grey-card-management{
+  font-family: Roboto, sans-serif;
+  font-size: 0.625rem;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 *, ::before, ::after{
@@ -669,28 +747,12 @@ a{
   --tw-backdrop-sepia:  ;
 }
 
-.fixed{
-  position: fixed;
-}
-
 .absolute{
   position: absolute;
 }
 
 .relative{
   position: relative;
-}
-
-.bottom-0{
-  bottom: 0px;
-}
-
-.bottom-\[76px\]{
-  bottom: 76px;
-}
-
-.right-\[46px\]{
-  right: 46px;
 }
 
 .z-\[-1\]{
@@ -769,10 +831,6 @@ a{
   margin-top: -121px;
 }
 
-.mt-\[-166px\]{
-  margin-top: -166px;
-}
-
 .mt-\[-64px\]{
   margin-top: -64px;
 }
@@ -795,10 +853,6 @@ a{
 
 .h-4\/5{
   height: 80%;
-}
-
-.h-custom-289{
-  height: 18.063rem;
 }
 
 .h-custom-320{
@@ -1008,11 +1062,6 @@ a{
   background-color: rgb(244 243 254 / var(--tw-bg-opacity));
 }
 
-.bg-lightgreen{
-  --tw-bg-opacity: 1;
-  background-color: rgb(33 223 177 / var(--tw-bg-opacity));
-}
-
 .bg-transparent{
   background-color: transparent;
 }
@@ -1044,10 +1093,6 @@ a{
 
 .p-1\.5{
   padding: 0.375rem;
-}
-
-.p-18{
-  padding: 1.125rem;
 }
 
 .px-0{
@@ -1326,10 +1371,6 @@ a{
   font-size: 1.12rem;
 }
 
-.text-18{
-  font-size: 1.125rem;
-}
-
 .text-18xl{
   font-size: 1.125rem;
 }
@@ -1425,12 +1466,6 @@ a{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.shadow-inner-custom{
-  --tw-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  --tw-shadow-colored: inset 0 4px 4px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .drop-shadow-custom{
   --tw-drop-shadow: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1438,12 +1473,6 @@ a{
 
 .text-shadow-custom{
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.Top-wrapper{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .placeholder\:text-14::-moz-placeholder{
@@ -1461,3 +1490,5 @@ a{
 .placeholder\:text-14\.33::placeholder{
   font-size: 0.896rem;
 }
+
+

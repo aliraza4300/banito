@@ -7,12 +7,15 @@ content: [
   './signup.html',
   './signup-screen-2.html',
   './resetpassword.html',
+  './Reset-password-details.html',
   './connectbank.html',
   './sourcefunding.html',
   './activity.html',
   './cardmanagement.html',
   './activity-details.html',
   './card-category.html',
+  './card-details.html',
+  './card-screen-2.html',
 ],
 plugins: [
   require('tailwindcss-textshadow')
@@ -171,6 +174,8 @@ plugins: [
         '21':'1.313rem', 
         '11':'0.688rem', 
         '17':'1.063rem', 
+        '133':'8.313rem', 
+        '75':'4.688rem', 
          
          
       },
