@@ -9,6 +9,9 @@
   <!-- Disable zooming -->
   <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
   <!-- Link to external stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!-- Link to Font Awesome stylesheet -->
@@ -17,17 +20,19 @@
 </head>
 
 <body >
-  <div class="h-custom-320 relative overflow-hidden flex flex-col items-center justify-end">
-    <div class="bg-custom-gradient-2  pb-53 px-10 h-custom-620 w-custom-620 absolute z-[-1] rounded-full "></div>
-    <div class=" px-26 pt-5 w-full Top-wrapper">
+  <div class="fixed bottom-[76px] right-[46px] p-18 bg-lightgreen rounded-full shadow-inner-custom drop-shadow-custom">
+    <img src="./css/images/Popup-icon.svg" alt="Icon" class="w-10 h-10">
+  </div>
+  <div class="first-container ">
+    <div class="rounded-container "></div>
+    <div class=" px-26 pt-18 w-full Top-wrapper">
       <div class="flex flex-row  ">
           <img src="./css/images/back-vector-white.svg" class="bg-white p-1.5 px-2.5 rounded-full" alt="">
           <button class="ml-1 text-white">Back</button>
       </div>
      
       <div class="flex flex-row ">
-          <button class="mr-18 text-white text-18xl ">What's new</button>
-          <img src="./css/images/hamburger-icon.svg" class="bg-white p-1.5  px-2 rounded-full" alt="">
+          <img src="./css/images/hamburger-icon.svg" class="bg-white py-2  px-2 rounded-full" alt="">
           
       </div>
      
@@ -40,169 +45,187 @@
       <h1 class="text-center  text-white font-semibold text-26 pb-15">Activity</h1>
       
     </div>
-<div class="w-full px-26 pb-120">
-  <div class="flex border border-blue rounded-custom-8px w-full overflow-hidden">
-    <input class="w-full focus:shadow-outline px-3 py-4"
+<div class="w-full px-26 mb-123">
+  <div class="flex border-0.5 border-blue rounded-custom-8px w-full overflow-hidden bg-white">
+    <input class="w-full focus:shadow-outline px-5 py-3 placeholder:text-14.33 text-gray-c-600 font-medium"
     id="search" 
     type="text" 
     placeholder= "search here"
     required >
-    <button  class="bg-custom-gradient px-5 py-4">
+    <button  class="bg-custom-gradient px-5 py-4 rounded-custom-8px">
       <img src="./css/images/search-icon.svg" alt="">
     </button>
   </div>
 
 </div>
-<div class="px-26">
-  <div> 
-    <div class="px-20"> 
-      <img src="./css/images/netflix-logo.svg" class="w-6" alt="">
-      <p class="text-11">June 4<br>Tuesday</p>
-    </div>
-    <div> 
-    <p></p>
-      <p></p>
-    </div>
-   
-  </div>
-</div>
+
+
+
    
     </div>
     
 
-  <div class="px-4">
-      
-    <div class="mb-4">
-
-        <div class="input-fields-wrapper mb-2 ">
-            
-       <div class="w-2/4 flex">
-        <img src="./css/images/activity-card.svg" class="w-5" alt="">
-        <p class="text-xs">June 4<br>
-            Tuesday</p>
-       </div>
-
-       <div class="flex w-2/4">
-        <p>Interest Debit</p>
-        <p>$75.00</p>
-       </div>
-            
-    </div>
-        <div class="input-fields-wrapper">
-            
-       <div class="w-2/4 flex">
-        <img src="./css/images/activity-card.svg" class="w-5" alt="">
-        <p>June 4<br>
-            Tuesday</p>
-       </div>
-
-       <div class="flex w-2/4">
-        <p>Interest Debit</p>
-        <p>$75.00</p>
-       </div>
-            
-    </div>
-        <div class="input-fields-wrapper">
-            
-       <div class="w-2/4 flex">
-        <img src="./css/images/activity-card.svg" class="w-5" alt="">
-        <p>June 4<br>
-            Tuesday</p>
-       </div>
-
-       <div class="flex w-2/4">
-        <p>Interest Debit</p>
-        <p>$75.00</p>
-       </div>
-            
-    </div>
-        <div class="input-fields-wrapper">
-            
-       <div class="w-2/4 flex">
-        <img src="./css/images/activity-card.svg" class="w-5" alt="">
-        <p>June 4<br>
-            Tuesday</p>
-       </div>
-
-       <div class="flex w-2/4">
-        <p>Interest Debit</p>
-        <p>$75.00</p>
-       </div>
-            
-    </div>
-        <div class="input-fields-wrapper">
-            
-       <div class="w-2/4 flex">
-        <img src="./css/images/activity-card.svg" class="w-5" alt="">
-        <p>June 4<br>
-            Tuesday</p>
-       </div>
-
-       <div class="flex w-2/4">
-        <p>Interest Debit</p>
-        <p>$75.00</p>
-       </div>
-            
-    </div>
-        <div class="input-fields-wrapper">
-            
-       <div class="w-2/4 flex">
-        <img src="./css/images/activity-card.svg" class="w-5" alt="">
-        <p>June 4<br>
-            Tuesday</p>
-       </div>
-
-       <div class="flex w-2/4">
-        <p>Interest Debit</p>
-        <p>$75.00</p>
-       </div>
-            
-    </div>
-        <div class="input-fields-wrapper">
-            
-       <div class="w-2/4 flex">
-        <img src="./css/images/activity-card.svg" class="w-5" alt="">
-        <p>June 4<br>
-            Tuesday</p>
-       </div>
-
-       <div class="flex w-2/4">
-        <p>Interest Debit</p>
-        <p>$75.00</p>
-       </div>
-            
-    </div>
-        <div class="input-fields-wrapper">
-            
-       <div class="w-2/4 flex">
-        <img src="./css/images/activity-card.svg" class="w-5" alt="">
-        <p>June 4<br>
-            Tuesday</p>
-       </div>
-
-       <div class="flex w-2/4">
-        <p>Interest Debit</p>
-        <p>$75.00</p>
-       </div>
-            
-    </div>
-        <div class="input-fields-wrapper">
-            
-       <div class="w-2/4 flex">
-        <img src="./css/images/activity-card.svg" class="w-5" alt="">
-        <p>June 4<br>
-            Tuesday</p>
-       </div>
-
-       <div class="flex w-2/4">
-        <p>Interest Debit</p>
-        <p>$75.00</p>
-       </div>
-            
-    </div>
+    <div class="flex flex-col px-26 py-0 gap-y-2.5 mt-[-121px] pb-15">
+      <div class="  flex border-0.5 border-blue rounded-custom-8px w-full overflow-hidden bg-white px-25 py-3">
+                
+        <div class=" flex flex-row gap-30 items-center font-roboto font-normal drop-shadow-custom ">
+         <img src="./css/images/activity-card.svg" class="w-custom-25.93 px-0.5" alt="">
+         <p class="text-11 text-blue pe-1.5">June 4<br>
+             Tuesday</p>
+        </div>
     
-  </div>
-  </div>
+        <div class="flex flex-row flex-grow items-center justify-between border-s-0.5 border-blue ps-1.5">
+         <p class="text-11 text-blue pe-1.5 font-roboto font-normal drop-shadow-custom">Interest Debit</p>
+         <p class="text-8 text-green font-normal">$75.00</p>
+        </div>
+             
+     </div>
+      <div class="  flex border-0.5 border-blue rounded-custom-8px w-full overflow-hidden bg-white px-25 pt-3 pb-1">
+                
+        <div class=" flex flex-row gap-30 items-center font-roboto font-normal drop-shadow-custom ">
+         <img src="./css/images/netflix-logo.svg" class="w-custom-25.93 px-0.5" alt="">
+         <p class="text-11 text-blue pe-1.5">June 4<br>
+             Tuesday</p>
+        </div>
+    
+        <div class="flex flex-row flex-grow  justify-between border-s-0.5 border-blue ps-1.5">
+          <div class="p-0 m-0">
+            <p class="text-11 text-blue pe-1.5 font-roboto font-normal drop-shadow-custom">Payment Done - Thank you </p>
+            <div class="flex text-8 text-gray-c-600 gap-0.82 w-custom-7.75 ">
+              <img src="./css/images/Loader.svg" alt="">
+              <p>Pending</p>
+            </div>
+          </div>
+          <div>
+            <p class="text-8 text-green font-normal pt-custom-3">$75.00</p>
+
+          </div>
+        </div>
+             
+     </div>
+      <div class="  flex border-0.5 border-blue rounded-custom-8px w-full overflow-hidden bg-white px-25 py-3">
+                
+        <div class=" flex flex-row gap-30 items-center font-roboto font-normal drop-shadow-custom ">
+         <img src="./css/images/Amazon.svg" class="w-custom-25.93 px-0.5" alt="">
+         <p class="text-11 text-blue pe-1.5">June 4<br>
+             Tuesday</p>
+        </div>
+    
+        <div class="flex flex-row flex-grow  justify-between border-s-0.5 border-blue ps-1.5">
+          <div class="p-0 m-0">
+            <p class="text-11 text-blue pe-1.5 font-roboto font-normal drop-shadow-custom">Authorized Transacion- Amazon</p>
+            <div class="flex text-8 text-gray-c-600 gap-0.82 w-custom-7.75 ">
+              
+              <img src="./css/images/Double-tick.svg" alt="">
+            </div>
+          </div>
+          <div>
+            <p class="text-8 text-green font-normal pt-custom-3">$75.00</p>
+
+          </div>
+        </div>
+             
+     </div>
+    
+      <div class="  flex border-0.5 border-blue rounded-custom-8px w-full overflow-hidden bg-white px-25 py-3">
+                
+        <div class=" flex flex-row gap-30 items-center font-roboto font-normal drop-shadow-custom ">
+         <img src="./css/images/activity-card.svg" class="w-custom-25.93 px-0.5" alt="">
+         <p class="text-11 text-blue pe-1.5">June 4<br>
+             Tuesday</p>
+        </div>
+    
+        <div class="flex flex-row flex-grow items-center justify-between border-s-0.5 border-blue ps-1.5">
+         <p class="text-11 text-blue pe-1.5 font-roboto font-normal drop-shadow-custom">Interest Debit</p>
+         <p class="text-8 text-green font-normal">$75.00</p>
+        </div>
+             
+     </div>
+      <div class="  flex border-0.5 border-blue rounded-custom-8px w-full overflow-hidden bg-white px-25 py-3">
+                
+        <div class=" flex flex-row gap-30 items-center font-roboto font-normal drop-shadow-custom ">
+         <img src="./css/images/netflix-logo.svg" class="w-custom-25.93 px-0.5" alt="">
+         <p class="text-11 text-blue pe-1.5">June 4<br>
+             Tuesday</p>
+        </div>
+    
+        <div class="flex flex-row flex-grow  justify-between border-s-0.5 border-blue ps-1.5">
+          <div class="p-0 m-0">
+            <p class="text-11 text-blue pe-1.5 font-roboto font-normal drop-shadow-custom">Payment Done - Thank you </p>
+            <div class="flex text-8 text-gray-c-600 gap-0.82 w-custom-7.75 ">
+              <img src="./css/images/Loader.svg" alt="">
+              <p>Pending</p>
+            </div>
+          </div>
+          <div>
+            <p class="text-8 text-green font-normal pt-custom-3">$75.00</p>
+
+          </div>
+        </div>
+             
+     </div>
+      <div class="  flex border-0.5 border-blue rounded-custom-8px w-full overflow-hidden bg-white px-25 py-3">
+                
+        <div class=" flex flex-row gap-30 items-center font-roboto font-normal drop-shadow-custom ">
+         <img src="./css/images/Amazon.svg" class="w-custom-25.93 px-0.5" alt="">
+         <p class="text-11 text-blue pe-1.5">June 4<br>
+             Tuesday</p>
+        </div>
+    
+        <div class="flex flex-row flex-grow  justify-between border-s-0.5 border-blue ps-1.5">
+          <div class="p-0 m-0">
+            <p class="text-11 text-blue pe-1.5 font-roboto font-normal drop-shadow-custom">Authorized Transacion- Amazon</p>
+            <div class="flex text-8 text-gray-c-600 gap-0.82 w-custom-7.75 ">
+              
+              <img src="./css/images/Double-tick.svg" alt="">
+            </div>
+          </div>
+          <div>
+            <p class="text-8 text-green font-normal pt-custom-3">$75.00</p>
+
+          </div>
+        </div>
+             
+     </div>
+     <div class="  flex border-0.5 border-blue rounded-custom-8px w-full overflow-hidden bg-white px-25 py-3">
+                
+      <div class=" flex flex-row gap-30 items-center font-roboto font-normal drop-shadow-custom ">
+       <img src="./css/images/activity-card.svg" class="w-custom-25.93 px-0.5" alt="">
+       <p class="text-11 text-blue pe-1.5">June 4<br>
+           Tuesday</p>
+      </div>
+  
+      <div class="flex flex-row flex-grow items-center justify-between border-s-0.5 border-blue ps-1.5">
+       <p class="text-11 text-blue pe-1.5 font-roboto font-normal drop-shadow-custom">Interest Debit</p>
+       <p class="text-8 text-green font-normal">$75.00</p>
+      </div>
+           
+   </div>
+    <div class="  flex border-0.5 border-blue rounded-custom-8px w-full overflow-hidden bg-white px-25 py-3">
+              
+      <div class=" flex flex-row gap-30 items-center font-roboto font-normal drop-shadow-custom ">
+       <img src="./css/images/netflix-logo.svg" class="w-custom-25.93 px-0.5" alt="">
+       <p class="text-11 text-blue pe-1.5">June 4<br>
+           Tuesday</p>
+      </div>
+  
+      <div class="flex flex-row flex-grow  justify-between border-s-0.5 border-blue ps-1.5">
+        <div class="p-0 m-0">
+          <p class="text-11 text-blue pe-1.5 font-roboto font-normal drop-shadow-custom">Payment Done - Thank you </p>
+          <div class="flex text-8 text-gray-c-600 gap-0.82 w-custom-7.75 ">
+            <img src="./css/images/Loader.svg" alt="">
+            <p>Pending</p>
+          </div>
+        </div>
+        <div>
+          <p class="text-8 text-green font-normal pt-custom-3">$75.00</p>
+
+        </div>
+      </div>
+           
+   </div>
+    
+    </div>
 </body>
 
 </html>

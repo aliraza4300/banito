@@ -24,7 +24,7 @@
    
    @apply gap-x-4;
   @apply border-blue; 
-    @apply border;
+    @apply border-0.5;
     @apply px-5;
     @apply py-5;
     @apply rounded;
@@ -38,7 +38,7 @@
    
   @apply gap-x-4;
  @apply border-blue; 
-   @apply border;
+   @apply border-0.5;
    @apply px-15;
    @apply py-5;
    @apply rounded;
@@ -46,8 +46,36 @@
    @apply focus:outline-none; 
    @apply bg-white; 
    
+    }
     
-} 
+    .Cardmanagementbuttons{
+      @apply w-full py-custom-3 rounded-custom-8px drop-shadow-button-shadow drop-shadow-button-shadow-2 bg-white border border-white 
+    }
+    
+    .Cardmanagementbuttons2{
+      @apply w-full py-custom-3 rounded-custom-8px drop-shadow-button-shadow drop-shadow-button-shadow-2 bg-white border border-white 
+    }
+    .Cardmanagementbuttons3{
+      @apply w-full py-custom-3 rounded-custom-8px drop-shadow-button-shadow drop-shadow-button-shadow-2 bg-white border border-white 
+    }
+
+    .first-container{
+      @apply  h-custom-320 ;
+      @apply relative ;
+      @apply overflow-x-hidden;
+      @apply flex;
+      @apply flex-col;
+      @apply items-center; 
+    }
+    .rounded-container{
+      @apply  bg-custom-gradient-2 px-10 h-custom-620 w-custom-620 absolute bottom-0 z-[-1] rounded-full max-w-custom
+    }
+ .back-button{
+  @apply bg-white p-1.5 px-2.5 rounded-full
+}
+.whatsnew-button{
+  @apply bg-white py-2  px-2 rounded-full
+}
 
 }
 
