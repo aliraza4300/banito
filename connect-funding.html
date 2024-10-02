@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+
+<head>
+  <!-- Set character encoding -->
+  <meta charset="UTF-8">
+  <!-- Configure viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Disable zooming -->
+  <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+  <!-- Link to external stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Link to Font Awesome stylesheet -->
+  
+   
+</head>
+
+<body >
+  <div class="container max-w-640 mx-auto relative">
+  <div class="h-full bg-transparent flex flex-col">
+
+
+  
+    <div class="first-container">
+      <div class="rounded-container"></div>
+      <div class=" px-26 pt-5 w-full Top-wrapper">
+        <div class="flex flex-row  ">
+            <img src="./css/images/back-vector-white.svg" class="back-button" alt="">
+            <button class="ml-1 text-white">Back</button>
+        </div>
+       
+        <div class="flex flex-row ">
+            <button class="mr-18 text-white text-18xl ">What's new</button>
+            <img src="./css/images/hamburger-icon.svg" class="whatsnew-button" alt="">
+            
+        </div>
+       
+      </div>
+      <div class="flex justify-center w-full">
+        <img src="./css/images/connect-debit-card.svg" class=" pt-42 " alt="">
+        
+      </div>
+      <div class="flex justify-center w-full">
+        <h1 class="source-funding-main-heading">Connect Your Debit<br>
+            Card</h1>
+        
+      </div>
+
+    
+    </div>
+    <div class=" py-4 px-25">
+      <div >
+<p class="text-14.3 font-medium text-center">Your Banxito cards will be funded by your debit card.</p>
+<p class="text-10 font-light text-center mb-15">Don’t have a debit card? <a href="">Connect to your bank account</a> </p>
+      </div>
+        <form>
+            <div class="mb-15">
+                <label class="label-text-connect" for="Street Address">Debit Card Detials</label>
+                <div class="source-fields-wrapper">
+                    <!-- <i class="fa-regular fa-envelope text-gray-500"></i> -->
+                    <input class="input-fields focus:shadow-outline placeholder:text-14"
+                    id="Street Address" 
+                    type="text" 
+                    placeholder= "0000  0000   0000  0000"
+                    required >
+                    <img src="./css/images/debit-rename-svg.svg" class="w-5"/>
+                </div>
+                
+            </div>
+            
+            <div class="flex justify-between mb-2.5 gap-6">
+                <div class="flex-1 ">
+                   
+                    <div class="source-fields-wrapper  ">
+                       
+                        <input class="input-fields focus:shadow-outline placeholder:text-14 "
+                        id="Date Of Birth" 
+                        type="text" 
+                        placeholder= "MM/YYYY"
+                        required ></div>
+                    
+                </div>
+                <div class="flex-1">
+                    
+                    <div class="source-fields-wrapper ">
+               
+                      <input class="input-fields placeholder:text-14" 
+                      id="Last Name" 
+                      type="text" 
+                      placeholder="CVV" 
+                      required>
+                
+                    </div>
+                   </div>
+                   
+                </div>
+                <p class="text-10 font-light mb-15">Don’t have a debit card? Connect to your bank account </p>
+            <div class="mb-15">
+                <label class="label-text-connect" for="Street Address">Street Address</label>
+                <div class="source-fields-wrapper">
+                    <!-- <i class="fa-regular fa-envelope text-gray-500"></i> -->
+                     <img src="./css/images/username-vector.svg" class="w-5"/>
+                    <input class="input-fields focus:shadow-outline placeholder:text-14"
+                    id="Street Address" 
+                    type="text" 
+                    placeholder= "Your US Street Address"
+                    required ></div>
+                
+            </div>
+            <div class="flex justify-between mb-15 gap-6">
+                <div class="mb-4 col-6 flex-1">
+                    <label class="label-text-connect" for="Apt/Unit">Apt/Unit(optional)</label>
+                    <div class="source-fields-wrapper ">
+                       
+                        <input class="input-fields focus:shadow-outline placeholder:text-14"
+                        id="Apt/Unit" 
+                        type="text" 
+                        placeholder= "Appartment"
+                        required ></div>
+                    
+                </div>
+                <div class="flex-1">
+                    <label class="label-text-connect " for="Zip Code">Zip Code</label>
+                    <div class="source-fields-wrapper ">
+               
+                      <input class="input-fields placeholder:text-14" 
+                      id="Zip Code" 
+                      type="text" 
+                      placeholder="0000" 
+                      required>
+                
+                    </div>
+                   </div>
+      
+            </div>
+         
+              
+             <button class="button-primary-rounded" type="submit">
+                Connect Bank Account
+          </button>
+          
+       </form>
+      
+    </div>
+  </div>
+</body>
+
+</html>
