@@ -38,7 +38,7 @@
        
       </div>
       <div class="flex justify-center w-full">
-        <img src="./css/images/connect-bank-account.svg" class="pt-46 " alt="">
+        <img src="./css/images/confirmation-charge.svg" class="pt-46 " alt="">
         
       </div>
       <div class="flex justify-center w-full">
@@ -52,11 +52,25 @@
   
     
       <div class=" flex-grow  bg-white mt-18 px-29 ">
-       <p class="connect-bank-account-sub-text">Connect the bank account you want to use fund purchases you make on your privacy card.</p>
+       <p class="confirmation-charge-sub-text">We made a small charge to your card. Enter
+        it below to confirm that you own the card</p>
+       <p class="text-10 font-medium text-center pb-5 ">The charge is temporary and will be reversed.</p>
     
          
           <div class="mb-15">
-           
+            <div class="mb-15">
+                <label class="label-text-connect" for="Street Address">Confirmation Amount</label>
+                <div class="source-fields-wrapper">
+                    <!-- <i class="fa-regular fa-envelope text-gray-500"></i> -->
+                    <input class="input-fields focus:shadow-outline placeholder:text-14"
+                    id="Street Address" 
+                    type="text" 
+                    placeholder= "0000 "
+                    required >
+                    
+                </div>
+                
+            </div>
             <button class="button-primary-rounded " type="submit">
                 Connect Bank Account
           </button>
