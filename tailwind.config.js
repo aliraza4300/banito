@@ -25,6 +25,12 @@ content: [
   './card-details.html',
   './card-screen-2.html',
   './check-email.html',
+  './confirmation-charge.html',
+  './hamburger-menu.html',
+  './plans.html',
+  './change-preffered-name.html',
+  './funding-source.html',
+  './landing.html',
 ],
   
   theme: {
@@ -63,6 +69,8 @@ content: [
         'green':'#14A11A',
         'lightgreen':'#21DFB1',
         'lightblue':'rgba(72, 73, 240, 0.61)',
+        'teal':'#00DEFF',
+        
       
       },
       fontFamily: {
@@ -80,6 +88,7 @@ content: [
         'custom-7.75':'0.484rem',
         '341':'21.313rem',
         '26.23':'1.639rem',
+        '133':'8.313rem',
         
         
       },
@@ -119,6 +128,7 @@ content: [
         '17.92':'1.12rem',
         '15': '0.938rem',  
         '22': '1.375rem',  
+        '24': '1.5rem',  
         
         
      
@@ -178,7 +188,7 @@ content: [
         '0.82':'0.051rem',
         'custom-3':'0.188rem',
         '14.33':'0.896rem',
-       'custom-3':'0.188rem',
+       'custom-5':'0.313rem',
         '27':'1.688rem',
         '31.4':'1.963rem',
         '72':'4.5rem',
@@ -192,6 +202,12 @@ content: [
         '75':'4.688rem', 
         '46':'2.875rem', 
         '87':'5.438rem', 
+        '38':'2.375rem', 
+        '63':'3.938rem', 
+        '73':'4.563rem', 
+        '188':'11.75rem', 
+        '82':'5.125rem', 
+        '24': '1.5rem',  
          
          
       },

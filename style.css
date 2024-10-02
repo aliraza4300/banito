@@ -596,29 +596,63 @@ a {
     }
     
     .button-primary-rounded{
-      @apply bg-custom-gradient py-13 text-17 rounded-15 text-white font-medium w-full
+      @apply bg-custom-gradient ;
+      @apply py-13 ;
+      @apply text-17;
+      @apply rounded-15;
+      @apply text-white;
+      @apply font-medium;
+      @apply w-full;
     }
     .connect-bank-heading{
-      @apply text-center  pb-5 text-white font-semibold text-33
+      @apply text-center; 
+      @apply pb-5 ;
+      @apply text-white;
+      @apply font-semibold;
+      @apply text-33;
     }
     .connect-bank-account-sub-text{
-      @apply text-center text-14 text-black font-normal mb-25
+      @apply text-center;
+      @apply text-14;
+      @apply text-black;
+      @apply font-normal;
+      @apply mb-25;
     }
     .source-funding-main-heading{
 
-      @apply text-center pb-5 text-white font-semibold text-33 pb-61
+      @apply text-center;
+      @apply pb-5;
+      @apply text-white;
+      @apply font-semibold;
+      @apply text-33;
+      @apply pb-61;
     }
     
     .login-text{
-      @apply text-center font-bold text-blue text-lg font-semibold mb-4 py-5
+      @apply text-center;
+      @apply font-bold;
+      @apply text-blue;
+      @apply text-lg;
+      @apply font-semibold;
+      @apply mb-4;
+      @apply py-5;
     }
     .verification-text-small{
-      @apply text-center text-xs text-gray-c-500 font-normal font-inter mb-1.5
+      @apply text-center;
+      @apply text-xs;
+      @apply text-gray-c-500;
+      @apply font-normal;
+      @apply font-inter;
+      @apply mb-1.5;
     }
     
     
     .verification-text-large{
-      @apply text-center font-bold text-black text-xs mb-13
+      @apply text-center;
+      @apply font-bold;
+      @apply text-black;
+      @apply text-xs;
+      @apply mb-13;
     }
     .input-fields-verification {
       @apply flex;
@@ -634,9 +668,76 @@ a {
     }
     
     .verification-input-fields{
-      @apply  flex-1 focus:outline-none w-[1%] text-center text-22 font-inter 
+      @apply  flex-1;
+      @apply focus:outline-none;
+      @apply w-[1%];
+      @apply text-center;
+      @apply text-22;
+      @apply font-inter; 
       }
+      .hamburger-menu-list-wrapper{
+        @apply flex;
+        @apply flex-row;
+       @apply ps-73;
+        @apply flex-grow;
+        @apply  border-0.3;
+        @apply border-blue;
+        
+        @apply py-11;
+        @apply rounded-custom-8px;
+        @apply gap-5;
+      }
+      .hamburger-wrapper{
+        @apply h-screen;
+        @apply absolute;
+        @apply backdrop-blur-lg;
+        @apply w-full;
+        @apply flex;
+        @apply justify-end
+      }
+      .hamburger-innner-wrapper{
+        @apply w-4/5;
+        @apply right-0;
+        @apply bg-white;
+        @apply drop-shadow-custom
+      }
+      .plans-button{
+        @apply  text-center;
+        @apply bg-white;
+        @apply drop-shadow-custom;
+        @apply  px-10;
+        @apply py-custom-5;
+        @apply text-blue;
+        @apply  text-14;
+        @apply rounded-custom-8px;
+      }
+      .plans-button-blue{
+        @apply  text-center;
+        @apply bg-custom-gradient;
+        @apply drop-shadow-custom;
+        @apply  px-10;
+        @apply py-custom-5;
+        @apply text-white;
+        @apply  text-14;
+        @apply rounded-custom-8px;
+        @apply flex;
+        @apply justify-center;
+        @apply content-center;
+        @apply gap-15;
+      }
+      .button-primary-rounded-white{
+        @apply bg-white;
+        @apply py-13 ;
+        @apply text-17;
+        @apply rounded-15;
+        @apply text-black;
+        @apply font-medium;
+        @apply w-full;
+        @apply border-0.3;
+        @apply border-blue;
+        @apply mt-2.5;
 
+      }
 
 }
 
