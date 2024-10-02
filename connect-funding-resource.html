@@ -38,12 +38,12 @@
        
       </div>
       <div class="flex justify-center w-full">
-        <img src="./css/images/connect-bank-account.svg" class="pt-46 " alt="">
+        <img src="./css/images/connect-funding-resource.svg" class="pt-46 " alt="">
         
       </div>
       <div class="flex justify-center w-full">
-        <h1 class="connect-bank-heading">Connect Bank<br>
-            Account</h1>
+        <h1 class="connect-bank-heading">Enter your <br>
+            Credentials</h1>
         
       </div>
 
@@ -56,16 +56,41 @@
     
          
           <div class="mb-15">
-           
-            <button class="button-primary-rounded " type="submit">
-                Connect Bank Account
-          </button>
+           <form action="">
+            <div class="mb-4  ">
+                <label class="label-text" for="email">Email Address</label>
+                <div class="input-fields-wrapper ">
+                    <!-- <i class="fa-regular fa-envelope text-gray-500"></i> -->
+                     <img src="./css/images/Email-icon.svg" class="w-5"/>
+                    <input class="input-fields focus:shadow-outline;"
+                    id="email" 
+                    type="email" 
+                    placeholder= "Email@example.com"
+                    required ></div>
+                
+            </div>
+            <div class="mb-25">
+                <label class="label-text" for="password">Password</label>
+                <div class="input-fields-wrapper">
+                  <img src="./css/images/Passwordvector.svg" class="w-5"/>
+                  <input class="input-fields" 
+                  id="password" 
+                  type="password" 
+                  placeholder="Enter your Password" 
+                  required>
+                  <img src="./css/images/password-eye.svg" class="w-5"/>
+                </div>
+               </div>
+               <button class="button-primary-rounded " type="submit">
+                   Connect Bank Account
+             </button>
+           </form>
          
       
       </div>
       
     </div>
-  </div>
+    </div>
 </body>
 
 </html>

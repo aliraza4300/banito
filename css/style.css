@@ -464,6 +464,31 @@ a{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.source-fields-wrapper{
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(72 73 240 / var(--tw-border-opacity));
+  border-width: 0.019rem;
+  padding-left: 0.938rem;
+  padding-right: 0.938rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-radius: 0.25rem;
+  border-radius: 8px;
+}
+
+.source-fields-wrapper:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.source-fields-wrapper{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .Cardmanagementbuttons{
   width: 100%;
   padding-top: 0.188rem;
@@ -735,6 +760,43 @@ a{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.check-email-heading{
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(72 73 240 / var(--tw-text-opacity));
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.625rem;
+}
+
+.check-email-sub-text{
+  text-align: center;
+  font-size: 0.875rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  margin-bottom: 0.938rem;
+}
+
+.connect-bank-heading{
+  text-align: center;
+  padding-bottom: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 600;
+  font-size: 2.063rem;
+}
+
+.connect-bank-account-sub-text{
+  text-align: center;
+  font-size: 0.875rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-weight: 400;
+  margin-bottom: 1.563rem;
+}
+
 a{
   --tw-text-opacity: 1;
   color: rgb(72 73 240 / var(--tw-text-opacity));
@@ -772,6 +834,31 @@ a{
 }
 
 .input-fields-wrapper{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.source-fields-wrapper{
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(72 73 240 / var(--tw-border-opacity));
+  border-width: 1px;
+  padding-left: 0.938rem;
+  padding-right: 0.938rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-radius: 0.25rem;
+  border-radius: 8px;
+}
+
+.source-fields-wrapper:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.source-fields-wrapper{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
@@ -835,7 +922,7 @@ a{
 .btn-primary{
   background-image: linear-gradient(90.3deg, #4849F0 0.16%, #363231 101.62%);
   height: 3.26rem;
-  border-radius: 15px;
+  border-radius: 8px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   font-weight: 700;
@@ -943,11 +1030,132 @@ a{
   font-size: 2.063rem;
 }
 
-.heading-white-01{
-  font-size: 1.25rem;
+.label-text-connect{
+  margin-bottom: 0.5rem;
+  display: block;
+  font-size: 0.896rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.source-fields-wrapper{
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(72 73 240 / var(--tw-border-opacity));
+  border-width: 0.019rem;
+  padding-left: 0.938rem;
+  padding-right: 0.938rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-radius: 0.25rem;
+  border-radius: 8px;
+}
+
+.source-fields-wrapper:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.source-fields-wrapper{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.button-primary-rounded{
+  width: 100%;
+  border-radius: 0.938rem;
+  background-image: linear-gradient(90.3deg, #4849F0 0.16%, #363231 101.62%);
+  padding-top: 0.813rem;
+  padding-bottom: 0.813rem;
+  font-size: 1.12rem;
+  font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.connect-bank-heading{
+  padding-bottom: 1.25rem;
+  text-align: center;
+  font-size: 2.063rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.connect-bank-account-sub-text{
+  margin-bottom: 1.563rem;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.source-funding-main-heading{
+  padding-bottom: 3.813rem;
+  text-align: center;
+  font-size: 2.063rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.verification-text-small{
+  margin-bottom: 0.375rem;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: .75rem;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(22 22 23 / var(--tw-text-opacity));
+}
+
+.verification-text-large{
+  margin-bottom: 0.813rem;
+  text-align: center;
+  font-size: .75rem;
   font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.input-fields-verification{
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(72 73 240 / var(--tw-border-opacity));
+  border-width: 0.019rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.25rem;
+  border-radius: 8px;
+}
+
+.input-fields-verification:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.input-fields-verification{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.verification-input-fields{
+  width: 1%;
+  flex: 1 1 0%;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 1.375rem;
+}
+
+.verification-input-fields:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 *, ::before, ::after{
@@ -1098,10 +1306,6 @@ a{
   inset-inline-end: 1.25rem;
 }
 
-.z-\[-1\]{
-  z-index: -1;
-}
-
 .m-2{
   margin: 0.5rem;
 }
@@ -1135,12 +1339,20 @@ a{
   margin-bottom: 0.5rem;
 }
 
+.mb-2\.5{
+  margin-bottom: 0.625rem;
+}
+
 .mb-25{
   margin-bottom: 1.563rem;
 }
 
 .mb-4{
   margin-bottom: 1rem;
+}
+
+.mb-87{
+  margin-bottom: 5.438rem;
 }
 
 .me-auto{
@@ -1171,6 +1383,10 @@ a{
   margin-top: 0.625rem;
 }
 
+.mt-25{
+  margin-top: 1.563rem;
+}
+
 .mt-\[-64px\]{
   margin-top: -64px;
 }
@@ -1195,12 +1411,8 @@ a{
   height: 9px;
 }
 
-.h-custom-320{
-  height: 20rem;
-}
-
-.h-custom-620{
-  height: 38.75rem;
+.h-custom-button-height{
+  height: 3.26rem;
 }
 
 .h-full{
@@ -1235,10 +1447,6 @@ a{
   width: 130px;
 }
 
-.w-\[133px\]{
-  width: 133px;
-}
-
 .w-\[23px\]{
   width: 23px;
 }
@@ -1257,10 +1465,6 @@ a{
 
 .w-auto{
   width: auto;
-}
-
-.w-custom-620{
-  width: 38.75rem;
 }
 
 .w-full{
@@ -1319,6 +1523,10 @@ a{
   gap: 0.938rem;
 }
 
+.gap-18{
+  gap: 1.125rem;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
@@ -1329,10 +1537,6 @@ a{
 
 .gap-31\.4{
   gap: 1.963rem;
-}
-
-.gap-4{
-  gap: 1rem;
 }
 
 .gap-5{
@@ -1360,7 +1564,7 @@ a{
 }
 
 .rounded-custom{
-  border-radius: 15px;
+  border-radius: 8px;
 }
 
 .rounded-custom-8px{
@@ -1402,10 +1606,6 @@ a{
   background-image: linear-gradient(90.3deg, #4849F0 0.16%, #363231 101.62%);
 }
 
-.bg-custom-gradient-2{
-  background-image: linear-gradient(180deg, rgba(72, 73, 240, 0.79) 0%, #292A8A 100%);
-}
-
 .p-0{
   padding: 0px;
 }
@@ -1426,11 +1626,6 @@ a{
   padding: 0.5rem;
 }
 
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1439,6 +1634,11 @@ a{
 .px-2\.5{
   padding-left: 0.625rem;
   padding-right: 0.625rem;
+}
+
+.px-25{
+  padding-left: 1.563rem;
+  padding-right: 1.563rem;
 }
 
 .px-26{
@@ -1456,6 +1656,11 @@ a{
   padding-right: 0.75rem;
 }
 
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -1469,11 +1674,6 @@ a{
 .py-0{
   padding-top: 0px;
   padding-bottom: 0px;
-}
-
-.py-13{
-  padding-top: 0.813rem;
-  padding-bottom: 0.813rem;
 }
 
 .py-15{
@@ -1505,6 +1705,10 @@ a{
 
 .pb-21{
   padding-bottom: 1.313rem;
+}
+
+.pb-32{
+  padding-bottom: 2rem;
 }
 
 .pb-5{
@@ -1543,16 +1747,24 @@ a{
   padding-inline-start: 1.25rem;
 }
 
+.pt-123{
+  padding-top: 7.688rem;
+}
+
 .pt-18{
   padding-top: 1.125rem;
 }
 
-.pt-35{
-  padding-top: 2.188rem;
-}
-
 .pt-4{
   padding-top: 1rem;
+}
+
+.pt-42{
+  padding-top: 2.625rem;
+}
+
+.pt-46{
+  padding-top: 2.875rem;
 }
 
 .pt-5{
@@ -1595,7 +1807,15 @@ a{
   font-size: 0.875rem;
 }
 
+.text-14\.33{
+  font-size: 0.896rem;
+}
+
 .text-17{
+  font-size: 1.12rem;
+}
+
+.text-17\.92{
   font-size: 1.12rem;
 }
 
@@ -1617,6 +1837,10 @@ a{
 
 .text-sm{
   font-size: .875rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
 }
 
 .text-xs{
@@ -1690,12 +1914,6 @@ a{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.Top-wrapper{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .placeholder\:text-14::-moz-placeholder{
   font-size: 0.875rem;
 }
@@ -1703,3 +1921,5 @@ a{
 .placeholder\:text-14::placeholder{
   font-size: 0.875rem;
 }
+
+

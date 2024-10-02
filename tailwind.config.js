@@ -4,6 +4,8 @@ content: [
 './components/**/*.{html,js,jsx,ts,tsx}',
   './pages/**/*.{html,js,jsx,ts,tsx}',
   './login.html',
+  './index.html',
+  './verification.html',
   './signup.html',
   './signup-screen-2.html',
   './signup-screen-3.html',
@@ -11,7 +13,10 @@ content: [
   './sourcefunding.html',
   './verification.html',
   './resetpassword.html',
+  './Reset-password-details.html',
   './connectbank.html',
+  './connect-funding-resource.html',
+  './connect-funding.html',
   './activity.html',
   './Reset-password-details.html',
   './cardmanagement.html',
@@ -39,6 +44,7 @@ content: [
 
         "gray-c-400":"#f4f3fe",
         "gray-c-600":"#A4A4A4",
+        "gray-c-500":"#161617",
         "neutral-750":"#333",
         "purple-750":"#480480",
         "teal-650":"#1aaaaa",
@@ -112,6 +118,7 @@ content: [
         '33':'2.063rem',
         '17.92':'1.12rem',
         '15': '0.938rem',  
+        '22': '1.375rem',  
         
         
      
@@ -120,6 +127,7 @@ content: [
       borderRadius: {  
         'custom': '15px',  
         'custom-8px': '8px',  
+        'custom': '8px',  
           // Custom radius value
         'large': '32px',     // Another custom radius
         'xl': '1.5rem',   
@@ -183,6 +191,7 @@ content: [
         '133':'8.313rem', 
         '75':'4.688rem', 
         '46':'2.875rem', 
+        '87':'5.438rem', 
          
          
       },

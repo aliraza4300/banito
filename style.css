@@ -544,6 +544,7 @@ a {
 @apply pt-5;
 @apply w-full;
 }
+
 .btn-back{
 @apply flex;
 @apply flex-row;
@@ -573,12 +574,70 @@ a {
 }
 
 
+.confirmation-charge-sub-text{
+  @apply text-center text-14 text-black font-normal mb-2.5
+}
+.label-text-connect{
+  @apply block text-black text-14.33 font-medium mb-2
+}
+.source-fields-wrapper {
+  @apply flex;
+   
+  @apply gap-x-4;
+ @apply border-blue; 
+   @apply border-0.3;
+   @apply px-15;
+   @apply py-5;
+   @apply rounded;
+   @apply rounded-custom-8px;
+   @apply focus:outline-none; 
+   @apply bg-white; 
+   
+    }
+    
+    .button-primary-rounded{
+      @apply bg-custom-gradient py-13 text-17 rounded-15 text-white font-medium w-full
+    }
+    .connect-bank-heading{
+      @apply text-center  pb-5 text-white font-semibold text-33
+    }
+    .connect-bank-account-sub-text{
+      @apply text-center text-14 text-black font-normal mb-25
+    }
+    .source-funding-main-heading{
+
+      @apply text-center pb-5 text-white font-semibold text-33 pb-61
+    }
+    
+    .login-text{
+      @apply text-center font-bold text-blue text-lg font-semibold mb-4 py-5
+    }
+    .verification-text-small{
+      @apply text-center text-xs text-gray-c-500 font-normal font-inter mb-1.5
+    }
+    
+    
+    .verification-text-large{
+      @apply text-center font-bold text-black text-xs mb-13
+    }
+    .input-fields-verification {
+      @apply flex;
+      @apply gap-x-4;
+     @apply border-blue; 
+       @apply border-0.3;
+        @apply py-3; 
+       @apply rounded;
+       @apply rounded-custom-8px;
+       @apply focus:outline-none; 
+       @apply bg-white; 
+       
+    }
+    
+    .verification-input-fields{
+      @apply  flex-1 focus:outline-none w-[1%] text-center text-22 font-inter 
+      }
+
 
 }
 
 
-.Top-wrapper{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
