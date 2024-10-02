@@ -20,6 +20,7 @@ content: [
   './connect-funding.html',
   './confirmation-charge.html',
   './connect-funding-resource.html',
+  './verification.html',
 ],
 plugins: [
   require('tailwindcss-textshadow')
@@ -39,7 +40,9 @@ plugins: [
         'custom': '0 4px 10px rgba(0, 0, 0, 0.25)',  
       },
       colors: {
+       "gray-c-300":"#8A8998",
        "gray-c-400":"#f4f3fe",
+       "gray-c-500":"#161617",
        "gray-c-600":"#A4A4A4",
        "gray-c-750":"#353333",
        "gray-c-1000":"#9795A0",
@@ -111,6 +114,7 @@ plugins: [
         '33':'2.063rem',
         '17.92':'1.12rem',
         '15': '0.938rem',  
+        '22': '1.375rem',  
         
         
      
@@ -183,6 +187,9 @@ plugins: [
         '75':'4.688rem', 
         '46':'2.875rem', 
         '103':'6.438rem', 
+        '73':'4.563rem', 
+        '23':'1.438rem', 
+        '87':'5.438rem', 
          
          
       },

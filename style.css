@@ -187,6 +187,30 @@
 .confirmation-charge-sub-text{
   @apply text-center text-14 text-black font-normal mb-2.5
 }
+.verification-text-small{
+  @apply text-center text-xs text-gray-c-500 font-normal font-inter mb-1.5
+}
+
+.verification-text-large{
+  @apply text-center font-bold text-black text-xs mb-13
+}
+.input-fields-verification {
+  @apply flex;
+  
+  @apply gap-x-4;
+ @apply border-blue; 
+   @apply border-0.3;
+   @apply py-3;
+   @apply rounded;
+   @apply rounded-custom-8px;
+   @apply focus:outline-none; 
+   @apply bg-white; 
+   
+}
+
+.verification-input-fields{
+  @apply  flex-1 focus:outline-none w-[1%] text-center text-22 font-inter 
+  }
 }
 
 
