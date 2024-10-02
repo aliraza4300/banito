@@ -3,27 +3,28 @@ module.exports = {
 content: [
 './components/**/*.{html,js,jsx,ts,tsx}',
   './pages/**/*.{html,js,jsx,ts,tsx}',
+  './login.html',
   './index.html',
+  './verification.html',
   './signup.html',
   './signup-screen-2.html',
+  './signup-screen-3.html',
+  './signup-screen-4.html',
+  './sourcefunding.html',
+  './verification.html',
   './resetpassword.html',
   './Reset-password-details.html',
   './connectbank.html',
-  './sourcefunding.html',
+  './connect-funding-resource.html',
+  './connect-funding.html',
   './activity.html',
+  './Reset-password-details.html',
   './cardmanagement.html',
   './activity-details.html',
   './card-category.html',
   './card-details.html',
   './card-screen-2.html',
   './check-email.html',
-  './connect-funding.html',
-  './confirmation-charge.html',
-  './connect-funding-resource.html',
-  './verification.html',
-],
-plugins: [
-  require('tailwindcss-textshadow')
 ],
   
   theme: {
@@ -40,24 +41,28 @@ plugins: [
         'custom': '0 4px 10px rgba(0, 0, 0, 0.25)',  
       },
       colors: {
-       "gray-c-300":"#8A8998",
-       "gray-c-400":"#f4f3fe",
-       "gray-c-500":"#161617",
-       "gray-c-600":"#A4A4A4",
-       "gray-c-750":"#353333",
-       "gray-c-1000":"#9795A0",
-       "purple-750":"#480480",
-       "teal-650":"#1aaaaa",
-       "Neutral-150":"#f7f7f7",
-       "Neutral-350":"#DCE4EC",
-       "neutral-175":"#f3f3f3",
-       "neutral-275":"#a7babe",
-       "danger-e7":"#e74c3c",
-       "blue": '#4849F0',
-      'gray': '#f8f8fe',
-      'green':'#14A11A',
-      'lightgreen':'#21DFB1',
-      'lightblue':'rgba(72, 73, 240, 0.61)',
+
+        "gray-c-400":"#f4f3fe",
+        "gray-c-600":"#A4A4A4",
+        "gray-c-500":"#161617",
+        "neutral-750":"#333",
+        "purple-750":"#480480",
+        "teal-650":"#1aaaaa",
+        "Neutral-150":"#f7f7f7",
+        "Neutral-350":"#DCE4EC",
+        "neutral-175":"#f3f3f3",
+        "gray-c-750":"#353333",
+        "neutral-275":"#a7babe",
+        "danger-e7":"#e74c3c",
+        "blue": '#4849F0',
+        "green-14": '#14A11A',
+        "border-color": '#7474F4',
+        'gray': '#f8f8fe',
+        "gray-c-1000":"#9795A0",
+        'gray': '#f8f8fe',
+        'green':'#14A11A',
+        'lightgreen':'#21DFB1',
+        'lightblue':'rgba(72, 73, 240, 0.61)',
       
       },
       fontFamily: {
@@ -86,7 +91,6 @@ plugins: [
         'inner-custom': 'inset 0 4px 4px 0 rgba(0, 0, 0, 0.25)', // Adjust the color and opacity as needed
       },
       fontSize: {
-
         'xs': '.75rem',      
         'sm': '.875rem',     
         'base': '1rem',      
@@ -121,12 +125,13 @@ plugins: [
       },
      
       borderRadius: {  
+        'custom': '15px',  
         'custom-8px': '8px',  
         'custom': '8px',  
           // Custom radius value
         'large': '32px',     // Another custom radius
         'xl': '1.5rem',   
-        '59':'59px' ,
+        '59':'59px' ,  // Extend existing sizes
         '15': '0.938rem',  
         '10': '0.625rem',  
        
@@ -135,8 +140,7 @@ plugins: [
          '0.3':'0.019rem',
       },
       maxWidth: {
-        '960': '960px',
-        'custom': '40rem',
+        '640': '640px',
        
       },
       height: {
@@ -151,9 +155,10 @@ plugins: [
       },
      
       spacing: {
+
         '20': "100px",
          '134':"8.314rem",
-         '53':"3.313rem",
+         '50':"3.125rem",
          '15':"0.938rem",
          '25':"1.563rem",
          '26':"1.625rem",
@@ -186,9 +191,6 @@ plugins: [
         '133':'8.313rem', 
         '75':'4.688rem', 
         '46':'2.875rem', 
-        '103':'6.438rem', 
-        '73':'4.563rem', 
-        '23':'1.438rem', 
         '87':'5.438rem', 
          
          

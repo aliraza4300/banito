@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+  <!-- Set character encoding -->
+  <meta charset="UTF-8">
+  <!-- Configure viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Disable zooming -->
+  <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+  <!-- Link to external stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Link to Font Awesome stylesheet -->
+  
+   
+</head>
+
+<body>
+  <div class="container max-w-640 mx-auto">
+      <div class="h-screen bg-white flex flex-col">
+        <div class=" pt-5 pb-50 px-7">
+          <div class="flex gap-1">
+            <img src="./css/images/Backsvg.svg" class="bg-blue p-0.5 px-2.5 rounded-full" alt="">
+            <button>Back</button>
+          </div>
+        </div>
+        <div class="rd-wrapper">
+         <h1 class="heading">Log in</h1>
+         <form>
+            <div class="mb-4">
+                <label class="label-title" for="email">Email</label>
+                <div class="input-fields-wrapper ">
+                     <img src="./css/images/Email-icon.svg" class="w-5"/>
+                    <input class="input-fields focus:shadow-outline;"
+                    id="email" 
+                    type="email" 
+                    placeholder= "Email@example.com"
+                    required ></div>
+                
+            </div>
+            <div class="mb-15">
+                <label class="label-title" for="password">Password</label>
+                <div class="input-fields-wrapper">
+                  <img src="./css/images/Passwordvector.svg" class="w-5"/>
+                  <input class="input-fields" 
+                  id="password" 
+                  type="password" 
+                  placeholder="Enter your Password" 
+                  required>
+                  <a href="">
+                    <img src="./css/images/password-eye.svg" class="w-5"/>
+                  </a>
+                </div>
+               </div>
+  
+               <div class="Forgot mb-4 ">
+                <a class="text-gray-c-600 mt-2.5 flex justify-end text-custom-font-forgot-pass ">Forgot Password?</a>
+              </div>
+              
+              <button class="btn-primary" type="submit">
+                Login
+            </button>
+           
+        </form>
+        </div>
+        
+      </div>
+  </div>
+</body>
+
+</html>

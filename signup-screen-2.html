@@ -19,59 +19,71 @@
 </head>
 
 <body >
-  <div class="h-full bg-transparent flex flex-col">
+  <div class="container max-w-640 mx-auto">
+    <div class="main-circle">
+      <div class="circle"></div>
 
+      <div class="content-between">
 
-  
-    <div class="first-container">
-      <div class="rounded-container"></div>
-    <div class="flex flex-row px-4 pt-5 w-full ">
-        <img src="./css/images/back-vector-white.svg" class="bg-white px-2.5 rounded-full" alt="">
-        <button class="ml-1 text-white ">Back</button>
+        <div class="btn-back">
+          <img src="./css/images/back-vector-white.svg" class="bg-white px-2.5 rounded-full" alt="">
+          <button class="ml-1 text-white ">Back</button>
+        </div>
+
+        <div class="flex justify-center">
+          <img src="./css/images/reset-password-2.svg" class="w-[107px]"/>
+        </div>
+
       </div>
-      <div class="flex justify-center">
-        <img src="./css/images/signupscreen2.svg" class=" pt-103  mr-18" alt="">
-      </div>
-    
+
     </div>
-  
-    
-      <div class=" flex-grow  bg-white mt-18 px-29 ">
-        <form>
-          <div class="mb-4  ">
-              <label class="label-text" for="email">Email Address</label>
-              <div class="input-fields-wrapper ">
-                  <!-- <i class="fa-regular fa-envelope text-gray-500"></i> -->
-                   <img src="./css/images/Email-icon.svg" class="w-5"/>
-                  <input class="input-fields focus:shadow-outline;"
-                  id="email" 
-                  type="email" 
-                  placeholder= "Email@example.com"
-                  required ></div>
-              
-          </div>
-          <div class="mb-15">
-              <label class="label-text" for="password">Password</label>
-              <div class="input-fields-wrapper">
-                <img src="./css/images/Passwordvector.svg" class="w-5"/>
-                <input class="input-fields" 
-                id="password" 
-                type="password" 
-                placeholder="Enter your Password" 
-                required>
-                <img src="./css/images/password-eye.svg" class="w-5"/>
-              </div>
-             </div>
 
-             <div class="Forgot mb-4 ">
-              <p class="text-gray-c-600 mt-2.5 flex justify-end text-custom-font-forgot-pass ">Forgot Password?</p>
-            </div>
-            <button class="button-primary" type="submit">
+    <form class="mt-18 px-7">
+      <div class="mb-4">
+          <label class="label-title" for="email">Email</label>
+          <div class="input-fields-wrapper">
+              <!-- <i class="fa-regular fa-envelope text-gray-500"></i> -->
+               <img src="./css/images/Email-icon.svg" class="w-5"/>
+              <input class="input-fields focus:shadow-outline;"
+              id="email" 
+              type="email" 
+              placeholder= "Email@example.com"
+              required ></div>
+          
+      </div>
+      <div class="mb-2">
+          <label class="label-title" for="password">Password</label>
+          <div class="input-fields-wrapper">
+            <img src="./css/images/Passwordvector.svg" class="w-5"/>
+            <input class="input-fields" 
+            id="password" 
+            type="password" 
+            placeholder="Enter your Password" 
+            required>
+            <img src="./css/images/password-eye.svg" class="w-5"/>
+          </div>
+         </div>
+
+         <div class="Forgot mb-4 ">
+          <a class="text-gray-c-600 mt-2.5 flex justify-end text-custom-font-forgot-pass ">Forgot Password?</a>
+        </div>
+        <div class="flex gap-2 items-center">
+          <input type="checkbox" id="terms" name="terms" required>
+          <label for="terms">
+              I am a US resident and i agree to <br /> <a href="">terms, card</a>  and <a href="">ACH</a> <br />authorizations, and <a href="">E-Sign Consent</a> 
+          </label>
+        </div>
+
+      <div class="">
+          <button class="btn-primary" type="submit">
               Login
           </button>
-         
-      </form>      
-    </div>
+      </div>
+  </form>
+
+
+  </div>
+  
 </body>
 
 </html>
