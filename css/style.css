@@ -1154,6 +1154,51 @@ a{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.input-fields-verification-5{
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
+  border-width: 0.019rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.25rem;
+  border-radius: 8px;
+}
+
+.input-fields-verification-5:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.input-fields-verification-5{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.input-fields-verification-4{
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(72 73 240 / var(--tw-border-opacity));
+  overflow: hidden;
+  border-width: 0.019rem;
+  border-radius: 0.25rem;
+  border-radius: 8px;
+}
+
+.input-fields-verification-4:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.input-fields-verification-4{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .verification-input-fields{
   flex: 1 1 0%;
 }
@@ -1164,6 +1209,24 @@ a{
 }
 
 .verification-input-fields{
+  width: 1%;
+  text-align: center;
+  font-size: 1.375rem;
+  font-family: Inter, sans-serif;
+}
+
+.verification4-input-fields{
+  flex: 1 1 0%;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.verification4-input-fields:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.verification4-input-fields{
   width: 1%;
   text-align: center;
   font-size: 1.375rem;
@@ -1254,6 +1317,50 @@ a{
   --tw-border-opacity: 1;
   border-color: rgb(72 73 240 / var(--tw-border-opacity));
   margin-top: 0.625rem;
+}
+
+.select-fields-wrapper{
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(72 73 240 / var(--tw-border-opacity));
+  border-width: 0.019rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  border-radius: 0.25rem;
+  border-radius: 8px;
+}
+
+.select-fields-wrapper:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.select-fields-wrapper{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.card-creation-sub-text{
+  font-size: 0.875rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-weight: 400;
+  margin-bottom: 1.563rem;
+}
+
+.landing-main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  padding-bottom: 0.938rem;
 }
 
 *, ::before, ::after{
@@ -1465,6 +1572,10 @@ a{
   margin-bottom: 0.625rem;
 }
 
+.mb-22{
+  margin-bottom: 1.375rem;
+}
+
 .mb-25{
   margin-bottom: 1.563rem;
 }
@@ -1485,12 +1596,24 @@ a{
   margin-bottom: 5.438rem;
 }
 
+.me-15{
+  margin-inline-end: 0.938rem;
+}
+
 .me-auto{
   margin-inline-end: auto;
 }
 
 .ml-1{
   margin-left: 0.25rem;
+}
+
+.mr-1{
+  margin-right: 0.25rem;
+}
+
+.mr-1\.5{
+  margin-right: 0.375rem;
 }
 
 .mr-18{
@@ -1533,6 +1656,10 @@ a{
   margin-top: 0.875rem;
 }
 
+.mt-32{
+  margin-top: 2rem;
+}
+
 .mt-82{
   margin-top: 5.125rem;
 }
@@ -1547,6 +1674,10 @@ a{
 
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-10{
@@ -1571,10 +1702,6 @@ a{
 
 .h-screen{
   height: 100vh;
-}
-
-.min-h-screen{
-  min-height: 100vh;
 }
 
 .w-10{
@@ -1734,16 +1861,16 @@ a{
   gap: 2rem;
 }
 
+.self-start{
+  align-self: flex-start;
+}
+
 .self-center{
   align-self: center;
 }
 
 .overflow-hidden{
   overflow: hidden;
-}
-
-.overflow-x-hidden{
-  overflow-x: hidden;
 }
 
 .rounded-15{
@@ -1764,6 +1891,14 @@ a{
 
 .border{
   border-width: 1px;
+}
+
+.border-0{
+  border-width: 0px;
+}
+
+.border-0\.3{
+  border-width: 0.019rem;
 }
 
 .border-r{
@@ -1863,9 +1998,19 @@ a{
   padding-right: 1.25rem;
 }
 
+.px-52{
+  padding-left: 3.25rem;
+  padding-right: 3.25rem;
+}
+
 .px-7{
   padding-left: 1.75rem;
   padding-right: 1.75rem;
+}
+
+.px-91{
+  padding-left: 5.688rem;
+  padding-right: 5.688rem;
 }
 
 .py-0{
@@ -1886,6 +2031,11 @@ a{
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-custom-3{
+  padding-top: 0.188rem;
+  padding-bottom: 0.188rem;
 }
 
 .pb-15{
@@ -1930,6 +2080,10 @@ a{
 
 .pe-2{
   padding-inline-end: 0.5rem;
+}
+
+.pe-76{
+  padding-inline-end: 4.75rem;
 }
 
 .ps-1{
@@ -2117,6 +2271,11 @@ a{
   color: rgba(72, 73, 240, 0.61);
 }
 
+.text-red-600{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
 .text-teal{
   --tw-text-opacity: 1;
   color: rgb(0 222 255 / var(--tw-text-opacity));
@@ -2138,6 +2297,11 @@ a{
 
 .placeholder\:text-14::placeholder{
   font-size: 0.875rem;
+}
+
+.focus\:bg-blue:focus{
+  --tw-bg-opacity: 1;
+  background-color: rgb(72 73 240 / var(--tw-bg-opacity));
 }
 
 

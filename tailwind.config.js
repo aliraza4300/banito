@@ -12,6 +12,8 @@ content: [
   './signup-screen-4.html',
   './sourcefunding.html',
   './verification.html',
+  './verification4.html',
+  './verification5.html',
   './resetpassword.html',
   './Reset-password-details.html',
   './connectbank.html',
@@ -22,6 +24,7 @@ content: [
   './cardmanagement.html',
   './activity-details.html',
   './card-category.html',
+  './card-category-2.html',
   './card-details.html',
   './card-screen-2.html',
   './check-email.html',
@@ -31,6 +34,14 @@ content: [
   './change-preffered-name.html',
   './funding-source.html',
   './landing.html',
+  './create-card.html',
+  './transaction-cap-physical-card.html',
+  './vanisher-card.html',
+  './subscription-trail.html',
+  './subscription-card.html',
+  './traveler-card.html',
+  './merchant-lock-card.html',
+  './card-creation.html',
 ],
   
   theme: {
@@ -131,6 +142,7 @@ content: [
         '24': '1.5rem',  
         
         
+        
      
       },
      
@@ -208,6 +220,10 @@ content: [
         '188':'11.75rem', 
         '82':'5.125rem', 
         '24': '1.5rem',  
+        '91': '5.688rem',
+        '52': '3.25rem',    
+        '76': '4.75rem',    
+        '22': '1.375rem',    
          
          
       },
