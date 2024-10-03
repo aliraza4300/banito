@@ -666,6 +666,30 @@ a {
        @apply bg-white; 
        
     }
+    .input-fields-verification-5 {
+      @apply flex;
+      @apply gap-x-4;
+     @apply border-red-600; 
+       @apply border-0.3;
+        @apply py-3; 
+       @apply rounded;
+       @apply rounded-custom-8px;
+       @apply focus:outline-none; 
+       @apply bg-white; 
+       
+    }
+    .input-fields-verification-4 {
+      @apply flex;
+      @apply gap-x-4;
+     @apply border-blue;
+     @apply overflow-hidden; 
+       @apply border-0.3;
+       @apply rounded;
+       @apply rounded-custom-8px;
+       @apply focus:outline-none; 
+       @apply bg-white; 
+       
+    }
     
     .verification-input-fields{
       @apply  flex-1;
@@ -674,6 +698,15 @@ a {
       @apply text-center;
       @apply text-22;
       @apply font-inter; 
+      }
+    .verification4-input-fields{
+      @apply  flex-1;
+      @apply  py-3;
+      @apply focus:outline-none;
+      @apply w-[1%];
+      @apply text-center;
+      @apply text-22;
+      @apply font-inter;
       }
       .hamburger-menu-list-wrapper{
         @apply flex;
@@ -738,7 +771,36 @@ a {
         @apply mt-2.5;
 
       }
-
+      .select-fields-wrapper {
+        @apply flex;
+        
+        @apply gap-x-4;
+       @apply border-blue; 
+         @apply border-0.3;
+         @apply px-5;
+         @apply rounded;
+         @apply rounded-custom-8px;
+         @apply focus:outline-none; 
+         @apply bg-white; 
+         
+     }
+     .card-creation-sub-text{
+      @apply text-14;
+      @apply text-black;
+      @apply font-normal;
+      @apply mb-25;
+    }  
+    .landing-main-container{
+      @apply flex;
+      @apply flex-col;
+      @apply items-center;
+      @apply max-w-640;
+      @apply mx-auto;
+      @apply min-h-screen;
+      @apply relative;
+      @apply overflow-x-hidden;
+      @apply pb-15;
+    }
 }
 
 
