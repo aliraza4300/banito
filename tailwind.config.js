@@ -34,6 +34,7 @@ content: [
   './change-preffered-name.html',
   './funding-source.html',
   './landing.html',
+  './landing-2.html',
   './create-card.html',
   './transaction-cap-physical-card.html',
   './vanisher-card.html',
