@@ -168,8 +168,7 @@
   @apply font-semibold;
   @apply font-inter;
   @apply text-33;
-  @apply pb-28;
-  @apply  pt-75;
+  @apply  pt-10;
 }
 
 .text-small-blue-card-management{

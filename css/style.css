@@ -633,8 +633,7 @@ a{
   font-weight: 600;
   font-family: Inter, sans-serif;
   font-size: 2.063rem;
-  padding-bottom: 7rem;
-  padding-top: 4.688rem;
+  padding-top: 2.5rem;
 }
 
 .text-small-blue-card-management{
@@ -1101,15 +1100,6 @@ a{
   color: rgb(0 0 0 / var(--tw-text-opacity));
   font-weight: 400;
   margin-bottom: 1.563rem;
-}
-
-.source-funding-main-heading{
-  text-align: center;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  font-weight: 600;
-  font-size: 2.063rem;
-  padding-bottom: 3.813rem;
 }
 
 .verification-text-small{
@@ -1849,6 +1839,10 @@ a{
   gap: 2.375rem;
 }
 
+.gap-4{
+  gap: 1rem;
+}
+
 .gap-5{
   gap: 1.25rem;
 }
@@ -1936,10 +1930,6 @@ a{
   padding: 0px;
 }
 
-.p-0\.5{
-  padding: 0.125rem;
-}
-
 .p-1{
   padding: 0.25rem;
 }
@@ -1950,16 +1940,6 @@ a{
 
 .p-2{
   padding: 0.5rem;
-}
-
-.px-1{
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-.px-1\.5{
-  padding-left: 0.375rem;
-  padding-right: 0.375rem;
 }
 
 .px-2{
@@ -1990,11 +1970,6 @@ a{
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .px-5{
@@ -2070,10 +2045,6 @@ a{
   padding-bottom: 3.125rem;
 }
 
-.pb-66{
-  padding-bottom: 4.125rem;
-}
-
 .pe-0{
   padding-inline-end: 0px;
 }
@@ -2106,6 +2077,14 @@ a{
   padding-inline-start: 1.25rem;
 }
 
+.pt-0{
+  padding-top: 0px;
+}
+
+.pt-1{
+  padding-top: 0.25rem;
+}
+
 .pt-123{
   padding-top: 7.688rem;
 }
@@ -2118,16 +2097,24 @@ a{
   padding-top: 11.75rem;
 }
 
+.pt-2{
+  padding-top: 0.5rem;
+}
+
+.pt-26{
+  padding-top: 1.625rem;
+}
+
+.pt-3{
+  padding-top: 0.75rem;
+}
+
+.pt-36{
+  padding-top: 9rem;
+}
+
 .pt-4{
   padding-top: 1rem;
-}
-
-.pt-42{
-  padding-top: 2.625rem;
-}
-
-.pt-46{
-  padding-top: 2.875rem;
 }
 
 .pt-5{
@@ -2138,12 +2125,20 @@ a{
   padding-top: 1.5rem;
 }
 
+.pt-64{
+  padding-top: 16rem;
+}
+
 .pt-7{
   padding-top: 1.75rem;
 }
 
 .pt-73{
   padding-top: 4.563rem;
+}
+
+.pt-8{
+  padding-top: 2rem;
 }
 
 .pt-9{
