@@ -803,3 +803,12 @@ a {
 }
 
 
+.bg-card-holder{
+  background: url(images/bg-card-custom.png) no-repeat 0 0 transparent;
+  background-size: 100%;
+  padding: .6rem 1.8rem;
+  min-height: 206px;
+}
+.valid-box{
+  margin-top: -1rem;
+}
